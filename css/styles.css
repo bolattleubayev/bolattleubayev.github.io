@@ -10213,6 +10213,21 @@ h3 {
   font-size: 1.5rem;
 }
 
+.portfolio .portfolio-item .portfolio-item-caption-swift {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(253, 124, 53, 0.9);
+}
+.portfolio .portfolio-item .portfolio-item-caption-swift:hover {
+  opacity: 1;
+}
+.portfolio .portfolio-item .portfolio-item-caption-swift .portfolio-item-caption-swift-content {
+  font-size: 1.5rem;
+}
+
 .portfolio-modal .portfolio-modal-title {
   font-size: 2.25rem;
   line-height: 2rem;
