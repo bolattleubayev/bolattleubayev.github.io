@@ -3910,6 +3910,11 @@ input[type=button].btn-block {
 .nav-tabs .nav-item {
   margin-bottom: -0.125rem;
 }
+
+.nav-tabs .nav-item-swift {
+  margin-bottom: -0.125rem;
+}
+
 .nav-tabs .nav-link {
   border: 0.125rem solid transparent;
   border-top-left-radius: 0.5rem;
@@ -3929,6 +3934,13 @@ input[type=button].btn-block {
   background-color: #fff;
   border-color: #dee2e6 #dee2e6 #fff;
 }
+
+.nav-tabs .nav-item-swift.show .nav-link {
+    color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+
 .nav-tabs .dropdown-menu {
   margin-top: -0.125rem;
   border-top-left-radius: 0;
@@ -3954,6 +3966,18 @@ input[type=button].btn-block {
   flex-grow: 1;
   text-align: center;
 }
+
+.nav-fill .nav-item-swift {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.nav-justified .nav-item-swift {
+  flex-basis: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
 
 .tab-content > .tab-pane {
   display: none;
@@ -6076,6 +6100,16 @@ button.bg-primary:focus {
   background-color: #148f77 !important;
 }
 
+.bg-primary-swift {
+    background-color: #fafafa !important;
+}
+
+a.bg-primary-swift:hover, a.bg-primary-swift:focus,
+button.bg-primary-swift:hover,
+button.bg-primary-swift:focus {
+  background-color: #148f77 !important;
+}
+
 .bg-secondary {
     background-color: #00204a !important;
 }
@@ -6084,6 +6118,16 @@ a.bg-secondary:hover, a.bg-secondary:focus,
 button.bg-secondary:hover,
 button.bg-secondary:focus {
   background-color: #1a252f !important;
+}
+
+.bg-secondary-swift {
+    background-color: #FD7C35 !important;
+}
+
+a.bg-secondary-swift:hover, a.bg-secondary-swift:focus,
+button.bg-secondary-swift:hover,
+button.bg-secondary-swift:focus {
+  background-color: #FF462A !important;
 }
 
 .bg-tertiary {
@@ -9751,6 +9795,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-dark-grey {
+  color: #333333 !important;
+}
+
 .text-primary {
   color: #1abc9c !important;
 }
@@ -10052,6 +10100,22 @@ h3 {
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
   color: #00bbf0;
 }
+
+
+#mainNav .navbar-nav li.nav-item-swift a.nav-link {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item-swift a.nav-link:hover {
+    color: #fff;
+}
+#mainNav .navbar-nav li.nav-item-swift a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #fff;
+}
+#mainNav .navbar-nav li.nav-item-swift a.nav-link.active {
+    color: #fff;
+}
+
+
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.8rem;
@@ -10079,6 +10143,16 @@ h3 {
     background: #00bbf0;
   }
 
+  
+  #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active {
+     color: #333333;
+     background: #F3F3F3;
+   }
+   #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active:hover {
+     color: #fff;
+     background: #F3F3F3;
+   }
+   
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
@@ -10095,6 +10169,7 @@ h3 {
   font-size: 2.75rem;
   line-height: 2.75rem;
 }
+
 .masthead .masthead-subheading {
   font-size: 1.25rem;
 }
