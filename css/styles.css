@@ -4710,7 +4710,7 @@ a.badge:hover, a.badge:focus {
 }
 a.badge-primary:hover, a.badge-primary:focus {
   color: #fff;
-  background-color: #148f77;
+  background-color: #095990;
 }
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
@@ -5335,6 +5335,15 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+}
+
+button.close-swift {
   padding: 0;
   background-color: transparent;
   border: 0;
@@ -6097,7 +6106,7 @@ a.close.disabled {
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #148f77 !important;
+  background-color: #095990 !important;
 }
 
 .bg-primary-swift {
@@ -6107,7 +6116,7 @@ button.bg-primary:focus {
 a.bg-primary-swift:hover, a.bg-primary-swift:focus,
 button.bg-primary-swift:hover,
 button.bg-primary-swift:focus {
-  background-color: #148f77 !important;
+  background-color: #6c757d !important;
 }
 
 .bg-secondary {
@@ -10246,6 +10255,17 @@ h3 {
   font-size: 3rem;
   line-height: 3rem;
   color: #00bbf0;
+  opacity: 1;
+}
+
+.portfolio-modal .close-swift {
+  position: absolute;
+  z-index: 1;
+  right: 1.5rem;
+  top: 1rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  color: #343a40;
   opacity: 1;
 }
 

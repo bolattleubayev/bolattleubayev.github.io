@@ -12,15 +12,17 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary-swift text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#index.html" onclick="location.href='index.html'">Bolat Tleubayev</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#index.html" onclick="location.href='index.html'">Bolat Tleubayev</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary-swift text-dark-grey rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
+                        <li class="nav-item-swift mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experince</a></li>
+                        <li class="nav-item-swift mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#extra">Courses</a></li>
                         <li class="nav-item-swift mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a></li>
                     </ul>
                 </div>
@@ -34,6 +36,40 @@
                 <p class="masthead-subheading font-weight-light mb-0">iOS apps</p>
             </div>
         </header>
+        <!-- Experince Section-->
+        <section class="page-section experience bg-primary-swift" id="experience">
+            <div class="container">
+                <!-- Projects Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experince</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <ul>
+                    <li><div class="mr-auto"><p class="lead">Participated in ideaTHON hackathon with DigBig app, 5th place out of 15, May 2020</p></div></li>
+                    <li><div class="mr-auto"><p class="lead">Participated in Coca Cola Prototype Challenge, May 2020</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Extra Section-->
+        <section class="page-section extra bg-primary-swift" id="extra">
+            <div class="container">
+                <!-- Projects Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Completed courses and books</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <ul>
+                    <li><div class="mr-auto"><p class="lead">Developing Apps for iOS CS193P (Fall 2017) course by Paul Hegarty from Stanford University</p></div></li>
+                    <li><div class="mr-auto"><p class="lead">Intermediate iOS 13 Programming with Swift, a biik by Simon Ng</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <!-- Portfolio Section-->
         <section class="page-section portfolio bg-primary-swift" id="portfolio">
             <div class="container">
@@ -113,7 +149,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <button class="close-swift" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                     <div class="modal-body text-center">
@@ -130,7 +166,7 @@
                                     </div>
                                     <!-- Portfolio Modal - Image-->
                                         <p align="center">
-                                            <iframe width="450" height="325" class="rounded"
+                                            <iframe width="80%" height="325" class="rounded"
                                                 src="https://www.youtube.com/embed/zEh7MNkYoOY">
                                             </iframe>
                                         </p>
@@ -149,7 +185,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <button class="close-swift" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                     <div class="modal-body text-center">
@@ -165,7 +201,7 @@
                                         <div class="divider-custom-line"></div>
                                     </div>
                                         <p align="center">
-                                            <iframe width="450" height="325" class="rounded"
+                                            <iframe width="80%" height="325" class="rounded"
                                                 src="https://www.youtube.com/embed/zGzayXDyH8k">
                                             </iframe>
                                         </p>
@@ -183,7 +219,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <button class="close-swift" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                     <div class="modal-body text-center">
@@ -218,6 +254,6 @@
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="./js/scripts.js"></script>
     </body>
 </html>
