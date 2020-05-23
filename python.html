@@ -12,45 +12,71 @@
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
         <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
         <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <link href="./css/styles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg bg-secondary-swift text-uppercase fixed-top" id="mainNav">
             <div class="container">
-                <a class="navbar-brand js-scroll-trigger" href="#page-top">Swift projects</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
+                <a class="navbar-brand js-scroll-trigger" href="#index.html" onclick="location.href='index.html'">Bolat Tleubayev</a><button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary-swift text-dark-grey rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu <i class="fas fa-bars"></i></button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a></li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a></li>
+                        <li class="nav-item-swift mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#experience">Experince</a></li>
+                        <li class="nav-item-swift mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#extra">Courses</a></li>
+                        <li class="nav-item-swift mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Projects</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         <!-- Masthead-->
-        <header class="masthead bg-primary text-white text-center">
-            <div class="container d-flex align-items-center flex-column">
-                <!-- Masthead Avatar Image--><img class="masthead-avatar mb-5" src="assets/img/avatars/logo.png" alt="" /><!-- Masthead Heading-->
-                <h1 class="masthead-heading text-uppercase mb-0">Bolat Tleubayev</h1>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
+        <header class="masthead bg-primary-swift text-secondary text-center">
+            <div class="container d-flex align-items-center flex-column"><!-- Masthead Heading -->
+                <h1 class="masthead-heading text-uppercase mb-0">Swift</h1>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">iOS Developer - Researcher - Python Developer</p>
+                <p class="masthead-subheading font-weight-light mb-0">iOS apps</p>
             </div>
         </header>
-        <!-- Portfolio Section-->
-        <section class="page-section portfolio" id="portfolio">
+        <!-- Experince Section-->
+        <section class="page-section experience bg-primary-swift" id="experience">
             <div class="container">
-                <!-- Portfolio Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Portfolio</h2>
+                <!-- Projects Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Experince</h2>
                 <!-- Icon Divider-->
                 <div class="divider-custom">
                     <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                </div>
+                <div class="row">
+                    <ul>
+                    <li><div class="mr-auto"><p class="lead">Participated in ideaTHON hackathon with DigBig app, 5th place out of 15, May 2020</p></div></li>
+                    <li><div class="mr-auto"><p class="lead">Participated in Coca Cola Prototype Challenge, May 2020</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Extra Section-->
+        <section class="page-section extra bg-primary-swift" id="extra">
+            <div class="container">
+                <!-- Projects Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Completed courses and books</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <div class="row">
+                    <ul>
+                    <li><div class="mr-auto"><p class="lead">Developing Apps for iOS CS193P (Fall 2017) course by Paul Hegarty from Stanford University</p></div></li>
+                    <li><div class="mr-auto"><p class="lead">Intermediate iOS 13 Programming with Swift, a biik by Simon Ng</p></div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section-->
+        <section class="page-section portfolio bg-primary-swift" id="portfolio">
+            <div class="container">
+                <!-- Projects Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Projects</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Portfolio Grid Items-->
@@ -58,52 +84,30 @@
                     <!-- Portfolio Item 1-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal1">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-swift d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/swift.png" alt="" />
+                            <img class="img-fluid" src="assets/img/swift/dig-big-logo.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 2-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal2">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-swift d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/python.png" alt="" />
+                            <img class="img-fluid" src="assets/img/swift/abcard-logo.png" alt="" />
                         </div>
                     </div>
                     <!-- Portfolio Item 3-->
                     <div class="col-md-6 col-lg-4 mb-5">
                         <div class="portfolio-item mx-auto" data-toggle="modal" data-target="#portfolioModal3">
-                            <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                            <div class="portfolio-item-caption-swift d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/flutter.png" alt="" />
+                            <img class="img-fluid" src="assets/img/swift/kop-soz-logo.png" alt="" />
                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
-        <!-- About Section-->
-        <section class="page-section bg-primary text-white mb-0" id="about">
-            <div class="container">
-                <!-- About Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-white">About</h2>
-                <!-- Icon Divider-->
-                <div class="divider-custom divider-light">
-                    <div class="divider-custom-line"></div>
-                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
-                    <div class="divider-custom-line"></div>
-                </div>
-                <!-- About Section Content-->
-                <div class="row">
-                    <div class="col-lg-4 ml-auto"><p class="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div class="col-lg-4 mr-auto"><p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
-                </div>
-                <!-- About Section Button-->
-                <div class="text-center mt-4">
-                    <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/"><i class="fas fa-download mr-2"></i>Free Download!</a>
                 </div>
             </div>
         </section>
@@ -145,7 +149,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <button class="close-swift" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                     <div class="modal-body text-center">
@@ -153,16 +157,23 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Swift</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Dig Big</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/swift.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Here is the preview of my Swift projects, button below can take you to expanded view of my Swift projects</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <!-- Portfolio Modal - Image-->
+                                        <p align="center">
+                                            <iframe width="80%" height="325" class="rounded"
+                                                src="https://www.youtube.com/embed/zEh7MNkYoOY">
+                                            </iframe>
+                                        </p>
+                                        <p class="mb-5">This project was done for ideaTHON 2020 competition in May, 2020. On the competition it was ranked 5th out of 15 competing teams by jury</p>
+                                        <p class="mb-5">The project uses Google and Facebook authentication APIs as well as Firebase backend. </p>
+                                        
+                                        <button class="btn btn-primary" onclick="window.location.href = 'https://github.com/bolattleubayev/DigBig';" >See on GitHub</button>
                                 </div>
                             </div>
                         </div>
@@ -174,7 +185,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-labelledby="portfolioModal2Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <button class="close-swift" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                     <div class="modal-body text-center">
@@ -182,16 +193,21 @@
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">Python</h2>
+                                    <h2 class="portfolio-modal-title text-secondary text-uppercase mb-0">ABCard</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/python.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Here is the preview of my Python projects, button below can take you to expanded view of my Python projects</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                        <p align="center">
+                                            <iframe width="80%" height="325" class="rounded"
+                                                src="https://www.youtube.com/embed/zGzayXDyH8k">
+                                            </iframe>
+                                        </p>
+                                        <p class="mb-5">This app was designed as a AR supplement for CVs or resumes. A user can insert her/his credentials and display them in 3D using ABCard</p>
+                                        <p class="mb-5">This app has local data persistence and uses ARKit for 3D object rendering</p>
+                                    <button class="btn btn-primary" onclick="window.location.href = 'https://apps.apple.com/kz/app/abcard/id1501153928';" >See on AppStore</button>
                                 </div>
                             </div>
                         </div>
@@ -203,7 +219,7 @@
         <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-labelledby="portfolioModal3Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
-                    <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+                    <button class="close-swift" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true"><i class="fas fa-times"></i></span>
                     </button>
                     <div class="modal-body text-center">
@@ -218,9 +234,10 @@
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/flutter.png" alt="" /><!-- Portfolio Modal - Text-->
-                                    <p class="mb-5">Here is the preview of my Flutter projects, button below can take you to expanded view of my Flutter projects</p>
-                                    <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/swift/kop-soz-logo.png" alt="" /><!-- Portfolio Modal - Text-->
+                                    <p class="mb-5">This is a simple app for learning and storing words on your phone</p>
+                                    <p class="mb-5">It has a local JSON persistence</p>
+                                    <button class="btn btn-primary" onclick="window.location.href = 'https://apps.apple.com/kz/app/kop-soz/id1494623354';" >See on AppStore</button>
                                 </div>
                             </div>
                         </div>
@@ -237,6 +254,6 @@
         <script src="assets/mail/jqBootstrapValidation.js"></script>
         <script src="assets/mail/contact_me.js"></script>
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <script src="./js/scripts.js"></script>
     </body>
 </html>
