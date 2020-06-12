@@ -6139,6 +6139,16 @@ button.bg-secondary-swift:focus {
   background-color: #FF462A !important;
 }
 
+.bg-secondary-python {
+  background-color: #3470A3 !important;
+}
+
+a.bg-secondary-python:hover, a.bg-secondary-python:focus,
+button.bg-secondary-python:hover,
+button.bg-secondary-python:focus {
+background-color: #FFD54D !important;
+}
+
 .bg-tertiary {
     background-color: #d9faff !important;
 }
@@ -6204,7 +6214,7 @@ button.bg-dark:focus {
 }
 
 .bg-white {
-  background-color: #fff !important;
+  background-color: #f6f8fa !important;
 }
 
 .bg-transparent {
@@ -10124,6 +10134,19 @@ h3 {
     color: #fff;
 }
 
+#mainNav .navbar-nav li.nav-item-python a.nav-link {
+  color: #FFD448;
+}
+#mainNav .navbar-nav li.nav-item-python a.nav-link:hover {
+    color: #FFD448;
+}
+#mainNav .navbar-nav li.nav-item-python a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #FFD448;
+}
+#mainNav .navbar-nav li.nav-item-python a.nav-link.active {
+    color: #FFD448;
+}
+
 
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10155,12 +10178,21 @@ h3 {
   
   #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active {
      color: #333333;
-     background: #F3F3F3;
+     background: #f3f3f3;
    }
    #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item-swift > a.nav-link.active:hover {
      color: #fff;
      background: #F3F3F3;
    }
+
+   #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active {
+    color: #FFD447;
+    background: #2D628D;
+  }
+  #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active:hover {
+    color: #fff;
+    background: #2D628D;
+  }
    
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
