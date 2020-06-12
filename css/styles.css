@@ -6149,6 +6149,16 @@ button.bg-secondary-python:focus {
 background-color: #FFD54D !important;
 }
 
+.bg-secondary-flutter {
+  background-color: #065B9A !important;
+}
+
+a.bg-secondary-flutter:hover, a.bg-secondary-flutter:focus,
+button.bg-secondary-flutter:hover,
+button.bg-secondary-flutter:focus {
+background-color: #12BAFD !important;
+}
+
 .bg-tertiary {
     background-color: #d9faff !important;
 }
@@ -10147,6 +10157,19 @@ h3 {
     color: #FFD448;
 }
 
+#mainNav .navbar-nav li.nav-item-flutter a.nav-link {
+  color: #12bafd;
+}
+#mainNav .navbar-nav li.nav-item-flutter a.nav-link:hover {
+    color: #12bafd;
+}
+#mainNav .navbar-nav li.nav-item-flutter a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
+  color: #12bafd;
+}
+#mainNav .navbar-nav li.nav-item-flutter a.nav-link.active {
+    color: #12bafd;
+}
+
 
 #mainNav .navbar-toggler {
   font-size: 80%;
@@ -10192,6 +10215,15 @@ h3 {
   #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item-python > a.nav-link.active:hover {
     color: #fff;
     background: #2D628D;
+  }
+
+  #mainNav .navbar-nav > li.nav-item-flutter > a.nav-link.active {
+    color: #fff;
+    background: #0376E8;
+  }
+  #mainNav .navbar-nav > li.nav-item-flutter > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item-flutter > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item-flutter > a.nav-link.active:hover {
+    color: #fff;
+    background: #0376E8;
   }
    
   #mainNav.navbar-shrink {
