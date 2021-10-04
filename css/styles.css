@@ -6163,6 +6163,10 @@ background-color: #12BAFD !important;
     background-color: #d9faff !important;
 }
 
+.bg-fourth {
+  background-color: #00bcf02f !important;
+}
+
 .bg-success {
   background-color: #28a745 !important;
 }
@@ -10277,7 +10281,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(0, 187, 240, 0.9);
+  background-color: #00bcf0ad;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
