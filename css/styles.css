@@ -10254,6 +10254,30 @@ h3 {
   width: 15rem;
 }
 
+.padded-horizontal-container {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.avatar-image-cropper {
+  max-width: 12rem;
+  max-height: 12rem;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.avatar-image {
+  height: 100%;
+  width: 100%;
+  min-width: 100%;
+}
+
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(6rem + 104px);
